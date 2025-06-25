@@ -1,0 +1,97 @@
+﻿
+Path                     
+----                     
+G:\PROJECTS\event-website
+├── public
+│   ├── activities
+│   │   ├── aftershow.jpg
+│   │   ├── arcade.jpg
+│   │   ├── evoshowcase.jpg
+│   │   └── publisher.jpg
+│   ├── backgrounds
+│   │   ├── back-france.png
+│   │   ├── back-japan.png
+│   │   ├── back-singapore.png
+│   │   ├── back-usa.png
+│   │   └── hall-of-champions.png
+│   ├── featured
+│   │   ├── dragonball.webp
+│   │   ├── fatalfury.webp
+│   │   ├── grandblue.webp
+│   │   ├── guiltygear.webp
+│   │   ├── hunterxhunter.webp
+│   │   ├── street6.webp
+│   │   └── tekken8.webp
+│   ├── involved
+│   │   ├── byoc.png
+│   │   ├── commentate.png
+│   │   └── referee.png
+│   ├── packages
+│   │   ├── goldpackage.png
+│   │   └── silverpackage.png
+│   ├── partners
+│   │   ├── beatsbydre.svg
+│   │   ├── canva.svg
+│   │   ├── checkio.svg
+│   │   ├── googlefit.svg
+│   │   ├── lapce.svg
+│   │   └── tindie.svg
+│   ├── alex-logo.svg
+│   ├── evo-bg.png
+│   ├── registration.jpg
+│   └── vite.svg
+├── src
+│   ├── assets
+│   │   ├── partners
+│   │   └── react.svg
+│   ├── components
+│   │   ├── AboutSection.jsx
+│   │   ├── Countdown.jsx
+│   │   ├── EventActivities.jsx
+│   │   ├── EventBanner.jsx
+│   │   ├── EventFaqs.jsx
+│   │   ├── EventFeatured.jsx
+│   │   ├── EventHotel.jsx
+│   │   ├── EventInvolved.jsx
+│   │   ├── EventRegistration.jsx
+│   │   ├── EventRules.jsx
+│   │   ├── EventsBar.jsx
+│   │   ├── EventsMarquee.jsx
+│   │   ├── Footer.jsx
+│   │   ├── HallOfChampions.jsx
+│   │   ├── HeroBanner.jsx
+│   │   ├── LatestVideos.jsx
+│   │   ├── Loader.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── NewsSection.jsx
+│   │   └── PartnersSection.jsx
+│   ├── data
+│   │   └── events.js
+│   ├── pages
+│   │   ├── events
+│   │   │   ├── EventPage.jsx
+│   │   │   ├── EventTemplate.jsx
+│   │   │   ├── France.jsx
+│   │   │   ├── Japan.jsx
+│   │   │   ├── Singapore.jsx
+│   │   │   └── Usa.jsx
+│   │   ├── EventsPage.jsx
+│   │   └── HomePage.jsx
+│   ├── App.css
+│   ├── App.jsx
+│   ├── custom.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── estructura.txt
+├── index.html
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.cjs
+├── README.md
+├── tailwind.config.js
+├── tree-estructura.txt
+└── vite.config.js
+
+

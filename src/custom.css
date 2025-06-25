@@ -1,0 +1,50 @@
+/* Brillo animado para logos */
+@keyframes shine {
+  0% { filter: brightness(1); }
+  50% { filter: brightness(2.2); }
+  100% { filter: brightness(1); }
+}
+
+.logo-shine:hover {
+  animation: shine 0.7s ease;
+}
+
+/* Glow para botón */
+.button-glow {
+  box-shadow: 0 0 16px 3px #ffe066, 0 0 8px 2px #fff8c6;
+  transition: box-shadow 0.3s;
+}
+.button-glow:hover {
+  box-shadow: 0 0 32px 6px #ffe066, 0 0 16px 4px #fff8c6;
+}
+
+/* Glassmorphism (vidrio) */
+.glass {
+  background: rgba(40, 40, 60, 0.30);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(200, 220, 255, 0.08);
+  border-radius: 1rem;
+}
+
+/* ========== Loader Shine Green Pulse ========== */
+@keyframes shine-green {
+  0%, 100% {
+    filter: drop-shadow(0 0 0 #006a5a) brightness(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 24px #006a5a) brightness(2.2);
+  }
+}
+.logo-shine-green {
+  animation: shine-green 1.3s infinite;
+}
+
+@keyframes pulse-slow {
+  0%, 100% { box-shadow: 0 0 0 0 transparent; }
+  50% { box-shadow: 0 0 8px 2px #93c5fd55; }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 2s infinite;
+}
+.shadow-blue { box-shadow: 0 0 8px 1px #3b82f655; }
+.shadow-red { box-shadow: 0 0 8px 1px #dc262655; }
